@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.fd3fd605.css","mappings":"AAAA,KACC,eAED,eAIC,qBAHA,gBAEA,SADA,SAEA","sources":["assets/sass/_navigation.sass"],"sourcesContent":["body\r\n\tfont-size: 20px\r\n\r\n.list-unstyled\r\n\tlist-style: none\r\n\tpadding: 0\r\n\tmargin: 0\r\n\tdisplay: inline-block"],"names":[],"sourceRoot":""}
