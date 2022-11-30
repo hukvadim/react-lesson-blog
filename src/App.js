@@ -6,6 +6,7 @@ import Home from './pages/home';
 import PageRenderer from './page-renderer';
 
 
+
 export default function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ export default function App() {
         <Navigation />
         <div className='page'>
           <Routes>
+            <Route path="*" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/:page" element={ <PageRenderer /> } />
           </Routes>
